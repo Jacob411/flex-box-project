@@ -21,6 +21,7 @@ a:link{text-decoration: none; color: white;}
     display: flex;
     gap: 16px;
     list-style: none;
+    margin-right: 100px;
 }
 .section-1{
     gap: 50px;
