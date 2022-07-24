@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+
 }
 .header{
 
@@ -23,9 +24,10 @@ body{
     background: grey;
     padding: 100px;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 .section-1 ul{
+    flex-shrink: 0;
     width: 300px;
     list-style: none;
 }
@@ -37,17 +39,20 @@ body{
     width: 300px;
 }
 .section-2-header{
+    margin: 50px;
     display: flex;
-    align-self: center;
+    justify-content: center;
+}
+.section-2-header div{
+    flex-shrink: 0;
+    display: flex;
     font-size: xx-large;
 }
 .section-2-images{
+    justify-content: center;
     display: flex;
     flex-wrap: nowrap;
     gap: 30px;
-    margin: 100px 100px 0 100px;
-
-    justify-content: center;
 }
 .section-2-images img{
     width: 200px;
@@ -63,4 +68,32 @@ body{
     width: 200px;
     flex-wrap: nowrap;
     flex-shrink: 0;
+}
+.section-3{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    background: grey;
+}
+.section-3-quote{
+
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+.section-3-quote div{
+    
+    width: 750px;
+    flex-shrink: 0;
+}
+.section-3-name{
+    display: flex;
+    justify-content: flex-end;
+}
+.section-3-name div{
+    
+    font-size: x-large;
+    flex-shrink: 0;
+    width: 112px;
+
 }
