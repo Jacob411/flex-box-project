@@ -4,7 +4,7 @@ This is a basic webpage about Spiderman created using HTML and CSS. It showcases
 
 ## Preview
 
-![Spiderman Webpage Preview](images/Screenshot from 2023-05-18 16-17-04.png.png)
+![Spiderman Webpage Preview](spiderman.png)
 
 ## Features
 
